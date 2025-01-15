@@ -3,5 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('Hello,Laravel');
+    return view('Welcome');
+});
+
+Route::get('/', function () {
+    return view('Hello,Laravel!');
 });
